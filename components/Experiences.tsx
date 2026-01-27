@@ -20,7 +20,7 @@ const experiences: Experience[] = [
     description:
       "Experience the magical nocturnal side of Mida Creek with guided evening kayak tours featuring lanterns and firefly watching.",
     image:
-      'https://readdy.ai/api/search-image?query=Magical%20evening%20canoe%20tour%20through%20mangrove%20channels%20with%20warm%20lantern%20light%20reflecting%20on%20dark%20water%2C%20fireflies%20glowing%20in%20mangrove%20trees%2C%20romantic%20nighttime%20eco-tourism%20experience%2C%20Kenya%20coastal%20adventure&amp;width=600&amp;height=400&amp;seq=night1&amp;orientation=landscape',
+      '/food2.jpg',
     icon: 'ri-moon-line',
     duration: '2 hours',
     price: 'KSh 1,500/person',
@@ -36,7 +36,7 @@ const experiences: Experience[] = [
     description:
       'Join trained naturalists for comprehensive bird-watching experiences through diverse mangrove habitats.',
     image:
-      'https://readdy.ai/api/search-image?query=Professional%20naturalist%20guide%20with%20binoculars%20pointing%20to%20colorful%20coastal%20birds%20in%20mangrove%20trees%2C%20educational%20eco-tourism%20experience%2C%20Kenya%20bird%20watching%20tour%2C%20wooden%20boardwalk%20observation%20deck&amp;width=600&amp;height=400&amp;seq=birds1&amp;orientation=landscape',
+      '/food1.jpg',
     icon: 'ri-binoculars-line',
     duration: '1.5 hours',
     price: 'KSh 800/person',
@@ -51,7 +51,7 @@ const experiences: Experience[] = [
     description:
       'Family-friendly conservation-minded mini fishing experience perfect for children and beginners.',
     image:
-      'https://readdy.ai/api/search-image?query=Happy%20family%20with%20children%20learning%20sustainable%20prawn%20fishing%20techniques%20in%20shallow%20mangrove%20waters%2C%20conservation%20education%20activity%2C%20local%20guide%20demonstrating%20catch%20and%20release%2C%20Kenya%20eco-tourism%20family%20experience&amp;width=600&amp;height=400&amp;seq=prawns1&amp;orientation=landscape',
+      '/food2.jpg',
     icon: 'ri-fish-line',
     duration: '1 hour',
     price: 'KSh 600/person',

@@ -63,11 +63,11 @@ const bringList = [
 	]
 ];
 
-const newExperiences = [
-	{ icon: "ri-moon-line", text: "Night canoe tours with fireflies" },
-	{ icon: "ri-chef-hat-line", text: "Cooking classes & culinary experiences" },
-	{ icon: "ri-heart-line", text: "Wedding & event venue services" }
-];
+// const newExperiences = [
+// 	// { icon: "ri-moon-line", text: "Night canoe tours with fireflies" },
+// 	// { icon: "ri-chef-hat-line", text: "Cooking classes & culinary experiences" },
+// 	{ icon: "ri-heart-line", text: "Wedding & event venue services" }
+// ];
 
 const Contact = () => {
 	return (
@@ -116,7 +116,7 @@ const Contact = () => {
 										</div>
 									))}
 								</div>
-								<div className="border-t border-emerald-500 pt-4">
+								{/* <div className="border-t border-emerald-500 pt-4">
 									<h4 className="font-semibold mb-3 font-baker-signet">New Experiences Available</h4>
 									<div className="space-y-2 text-sm">
 										{newExperiences.map((exp, idx) => (
@@ -126,26 +126,25 @@ const Contact = () => {
 											</div>
 										))}
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div>
 							<div className="bg-white rounded-xl shadow-lg overflow-hidden">
 								<div className="h-64">
-									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31909.234567890123!2d40.1234567!3d-3.3456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sWatamu%2C%20Kenya!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s"
-										width="100%"
-										height="100%"
-										style={{ border: 0 }}
-										allowFullScreen
-										loading="lazy"
-										referrerPolicy="no-referrer-when-downgrade"
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.92669164692!2d39.99401087559969!3d-3.3680965966065615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1815801c768a909d%3A0xf23206f6d1cf5714!2sPrawn&#39;s%20Lake%20Conservation%20project!5e0!3m2!1sen!2ske!4v1769434269918!5m2!1sen!2ske" 
+										width="100%" 
+										height="100%" 
+										style={{border:0}}
+										allowfullscreen
+										loading="lazy" 
+										referrerpolicy="no-referrer-when-downgrade"
 										title="Prawns Lake Location"
 									></iframe>
 								</div>
 								<div className="p-8">
 									<h3 className="text-2xl font-bold text-gray-900 mb-6 font-baker-signet">Contact Us</h3>
-									<form className="space-y-6">
+									<form className="space-y-5">
 										<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 											<div>
 												<label className="block text-sm font-semibold text-gray-700 mb-2 font-outfit">Name</label>

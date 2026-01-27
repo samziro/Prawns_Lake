@@ -1,6 +1,5 @@
 // Home page content from Home.jsx, adapted for /app/page.tsx
 import React from "react";
-
 import Hero from "components/Hero";
 import About from "components/About";
 import Dining from "components/Dining";

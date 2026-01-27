@@ -30,7 +30,6 @@ body {
 
 @font-face {
   font-family: 'Baker Signet';
-  src: url('/fonts/BakerSignetStd.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }

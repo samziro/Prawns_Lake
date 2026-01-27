@@ -15,7 +15,7 @@ export default function Tour() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                         <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                             <div className="relative overflow-hidden">
-                                <Image width={100} height={100} src="https://readdy.ai/api/search-image?query=Peaceful%20kayaking%20through%20narrow%20mangrove%20channels%20with%20lush%20green%20mangrove%20trees%20on%20both%20sides%2C%20calm%20reflective%20water%2C%20Kenya%20coastal%20ecosystem%2C%20eco-tourism%20activity%2C%20serene%20paddling%20experience%2C%20tropical%20paradise&amp;width=600&amp;height=400&amp;seq=activity1&amp;orientation=landscape" alt="Kayaking &amp; Canoeing" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
+                                <Image width={1000} height={1000} src="/canoe.webp" alt="Kayaking &amp; Canoeing" className="w-full h-48 object-cover object-center group-hover:scale-110 transition-transform duration-300" />
                                 <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
                                     <i className="ri-sailboat-line text-blue-600 text-xl"></i></div>
                             </div>
@@ -38,7 +38,7 @@ export default function Tour() {
                         </div>
                         <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                             <div className="relative overflow-hidden">
-                                <Image height={100} width={100} src="https://readdy.ai/api/search-image?query=Traditional%20wooden%20canoe%20with%20local%20guide%20navigating%20through%20pristine%20mangrove%20waterways%2C%20authentic%20Kenya%20coastal%20experience%2C%20cultural%20eco-tourism%2C%20peaceful%20creek%20exploration%2C%20mangrove%20conservation%20tour&amp;width=600&amp;height=400&amp;seq=activity2&amp;orientation=landscape" alt="Guided Boat Tours" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
+                                <Image height={1000} width={1000} src="/guide.webp" alt="Guided Boat Tours" className="w-full h-48 object-cover object-center group-hover:scale-110 transition-transform duration-300" />
                                 <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
                                     <i className="ri-ship-line text-blue-600 text-xl"></i>
                                 </div>
@@ -58,7 +58,7 @@ export default function Tour() {
                         </div>
                         <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                             <div className="relative overflow-hidden">
-                                <Image width={100} height={100} src="https://readdy.ai/api/search-image?query=Wooden%20boardwalk%20winding%20through%20dense%20mangrove%20forest%20with%20visitors%20walking%20peacefully%2C%20natural%20lighting%20filtering%20through%20leaves%2C%20eco-tourism%20infrastructure%2C%20Kenya%20coastal%20nature%20trail%2C%20conservation%20education&amp;width=600&amp;height=400&amp;seq=activity3&amp;orientation=landscape" alt="Nature Walks" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
+                                <Image width={1000} height={1000} src="/nature_walk.webp" alt="Nature Walks" className="w-full h-48 object-cover object-center group-hover:scale-110 transition-transform duration-300" />
                                 <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center"><i className="ri-footprint-line text-blue-600 text-xl"></i></div>
                             </div>
                             <div className="p-6">
@@ -76,7 +76,7 @@ export default function Tour() {
                         </div>
                         <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                             <div className="relative overflow-hidden">
-                                <Image height={100} width={100} src="https://readdy.ai/api/search-image?query=Diverse%20wildlife%20in%20mangrove%20ecosystem%20including%20colorful%20coastal%20birds%2C%20mud%20crabs%20in%20their%20natural%20habitat%2C%20rich%20biodiversity%2C%20Kenya%20UNESCO%20biosphere%20reserve%20animals%2C%20peaceful%20wildlife%20observation&amp;width=600&amp;height=400&amp;seq=activity4&amp;orientation=landscape" alt="Wildlife Viewing" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
+                                <Image height={100} width={100} src="/food1.jpg" alt="Wildlife Viewing" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
                                 <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center"><i className="ri-binoculars-line text-blue-600 text-xl"></i></div>
                             </div>
                             <div className="p-6">
@@ -95,7 +95,7 @@ export default function Tour() {
                         </div>
                         <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                             <div className="relative overflow-hidden">
-                                <Image width={100} height={100} src="https://readdy.ai/api/search-image?query=Spectacular%20sunset%20view%20over%20mangrove%20creek%20with%20golden%20sky%20reflecting%20in%20calm%20waters%2C%20silhouettes%20of%20visitors%20on%20wooden%20deck%2C%20romantic%20evening%20atmosphere%2C%20Kenya%20coastal%20sunset%2C%20magical%20golden%20hour%20lighting&amp;width=600&amp;height=400&amp;seq=activity5&amp;orientation=landscape" alt="Sunset Viewing" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"/>
+                                <Image width={1000} height={1000} src="/sun.webp" alt="Sunset Viewing" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"/>
                                 <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center"><i className="ri-sun-line text-blue-600 text-xl"></i>
                             </div>
                             </div>
@@ -115,7 +115,7 @@ export default function Tour() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"><div className="relative overflow-hidden"><Image width={100} height={100} src="https://readdy.ai/api/search-image?query=Photographer%20capturing%20stunning%20mangrove%20landscape%20during%20golden%20hour%2C%20pristine%20natural%20setting%2C%20Kenya%20coastal%20photography%2C%20eco-tourism%20documentation%2C%20beautiful%20lighting%20through%20mangrove%20trees%2C%20artistic%20nature%20photography&amp;width=600&amp;height=400&amp;seq=activity6&amp;orientation=landscape" alt="Photography Tours" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
+                        <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"><div className="relative overflow-hidden"> <Image width={100} height={100} src="/food1.jpg" alt="" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
                         <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center"><i className="ri-camera-line text-blue-600 text-xl"></i></div></div>
                         <div className="p-6">
                             <h3 className="text-xl font-bold text-gray-900 mb-3">Photography Tours</h3>
@@ -159,7 +159,7 @@ export default function Tour() {
                         </div>
                     </div>
                     <div className="relative">
-                        <Image width={100} height={100} src="https://readdy.ai/api/search-image?query=Happy%20family%20enjoying%20eco-tourism%20activities%20in%20mangrove%20environment%2C%20parents%20and%20children%20on%20wooden%20boardwalk%2C%20peaceful%20nature%20experience%2C%20Kenya%20coastal%20family%20vacation%2C%20conservation%20education%2C%20multi-generational%20outdoor%20adventure&amp;width=600&amp;height=500&amp;seq=family&amp;orientation=portrait" alt="Family activities" className="w-full h-96 object-cover object-top rounded-xl shadow-lg" />
+                        <Image width={1000} height={1000} src="/ages.webp" alt="Family activities" className="w-full h-96 object-cover object-center rounded-xl shadow-lg" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-xl">
                         </div>
 

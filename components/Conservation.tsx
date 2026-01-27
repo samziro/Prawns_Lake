@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Image from 'next/image'
 
 const Conservation = () => {
   return (
@@ -29,10 +30,10 @@ const Conservation = () => {
               </div>
             </div>
             <div className="space-y-8">
-              <img src="https://readdy.ai/api/search-image?query=Local%20community%20members%20planting%20mangrove%20seedlings%20in%20mudflats%20during%20low%20tide%2C%20community%20conservation%20work%2C%20Kenya%20coastal%20restoration%20project%2C%20hands-on%20environmental%20protection%2C%20sustainable%20development%2C%20teamwork%20in%20nature&amp;width=600&amp;height=400&amp;seq=conservation1&amp;orientation=landscape" alt="Community conservation work" className="w-full h-64 object-cover object-top rounded-xl shadow-lg" />
+              <Image width={1000} height={1000} src="/plant1.webp" alt="Community conservation work" className="w-full h-64 object-cover object-center rounded-xl shadow-lg" />
               <div className="grid grid-cols-2 gap-4">
-                <img src="https://readdy.ai/api/search-image?query=Young%20mangrove%20seedlings%20growing%20in%20protected%20nursery%20area%20with%20community%20volunteer%20tending%20to%20them%2C%20conservation%20success%20story%2C%20Kenya%20coastal%20reforestation%2C%20sustainable%20environmental%20management%2C%20hope%20for%20future&amp;width=300&amp;height=200&amp;seq=conservation2&amp;orientation=landscape" alt="Mangrove nursery" className="w-full h-32 object-cover object-top rounded-lg shadow-lg" />
-                <img src="https://readdy.ai/api/search-image?query=Community%20education%20session%20about%20mangrove%20conservation%20with%20local%20children%20learning%20about%20ecosystem%20protection%2C%20environmental%20awareness%2C%20Kenya%20coastal%20education%2C%20sustainable%20development%20goals%2C%20future%20generations&amp;width=300&amp;height=200&amp;seq=conservation3&amp;orientation=landscape" alt="Environmental education" className="w-full h-32 object-cover object-top rounded-lg shadow-lg" />
+                <Image width={1000} height={1000}  src="/beach.webp" alt="Mangrove nursery" className="w-full h-32 object-cover object-center rounded-lg shadow-lg" />
+                <Image width={1000} height={1000}  src="/teaching.webp" alt="Environmental education" className="w-full h-32 object-cover object-center rounded-lg shadow-lg" />
               </div>
             </div>
           </div>
