@@ -75,6 +75,7 @@ const ExperienceCard: React.FC<{ exp: Experience }> = ({ exp }) => (
       <Image
         width={600}
         height={400}
+        loading='lazy'
         src={exp.image}
         alt={exp.title}
         className="w-full h-48 object-cover object-center group-hover:scale-110 transition-transform duration-300"

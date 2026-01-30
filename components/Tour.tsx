@@ -76,7 +76,7 @@ export default function Tour() {
                         </div>
                         <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                             <div className="relative overflow-hidden">
-                                <Image height={1000} width={1000} src="/wildlife.webp" alt="Wildlife Viewing" className="w-full h-48 object-cover object-center group-hover:scale-110 transition-transform duration-300" />
+                                <Image height={1000} width={1000} loading='lazy' src="/wildlife.webp" alt="Wildlife Viewing" className="w-full h-48 object-cover object-center group-hover:scale-110 transition-transform duration-300" />
                                 <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center"><i className="ri-binoculars-line text-blue-600 text-xl"></i></div>
                             </div>
                             <div className="p-6">
@@ -95,7 +95,7 @@ export default function Tour() {
                         </div>
                         <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                             <div className="relative overflow-hidden">
-                                <Image width={1000} height={1000} src="/sun.webp" alt="Sunset Viewing" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"/>
+                                <Image width={1000} height={1000} loading='lazy' src="/sun.webp" alt="Sunset Viewing" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"/>
                                 <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center"><i className="ri-sun-line text-blue-600 text-xl"></i>
                             </div>
                             </div>

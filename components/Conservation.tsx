@@ -30,12 +30,12 @@ const Conservation = () => {
               </div>
             </div>
             <div className="space-y-8">
-              <Image width={1000} height={1000} src="/plant1.webp" alt="Community conservation work" className="w-full h-64 object-cover object-center rounded-xl shadow-lg" />
+              <Image width={1000} height={1000} loading='lazy' src="/plant1.webp" alt="Community conservation work" className="w-full h-64 object-cover object-center rounded-xl shadow-lg" />
               <div className="grid grid-cols-2 gap-4">
-                <Image width={1000} height={1000}  src="/beach.webp" alt="Mangrove nursery" className="w-full h-32 object-cover object-center rounded-lg shadow-lg" />
-                <Image width={1000} height={1000}  src="/plant.webp" alt="Environmental education" className="w-full h-32 object-cover object-top rounded-lg shadow-lg" />
+                <Image width={1000} height={1000} loading='lazy' src="/beach.webp" alt="Mangrove nursery" className="w-full h-32 object-cover object-center rounded-lg shadow-lg" />
+                <Image width={1000} height={1000} loading='lazy' src="/plant.webp" alt="Environmental education" className="w-full h-32 object-cover object-top rounded-lg shadow-lg" />
               </div>
-              <Image width={1000} height={1000} src="/nursery.webp" alt="Community conservation work" className="w-full h-64 object-cover object-center rounded-xl shadow-lg" />
+              <Image width={1000} height={1000} loading='lazy' src="/nursery.webp" alt="Community conservation work" className="w-full h-64 object-cover object-center rounded-xl shadow-lg" />
             </div>
           </div>
           <div className="mb-16">

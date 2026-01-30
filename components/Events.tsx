@@ -83,6 +83,7 @@ const Events: React.FC = () => {
           <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
             <div className="relative overflow-hidden">
               <Image width={1000} height={1000}
+                loading='lazy'
                 src="/teaching.webp"
                 alt="Corporate Team Building"
                 className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"
@@ -140,6 +141,7 @@ const Events: React.FC = () => {
           <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
             <div className="relative overflow-hidden">
               <Image width={1000} height={1000}
+                loading='lazy'
                 src="/yoga.webp"
                 alt="Yoga & Wellness Retreats"
                 className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"

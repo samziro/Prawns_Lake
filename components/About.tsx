@@ -36,12 +36,12 @@ const About = () => {
             <div className="relative">
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
-                    <Image width={1000} height={1000} src="/area.webp" alt="Mangrove ecosystem" className="w-full h-48 object-cover object-center rounded-lg shadow-lg" />
-                  <Image width={1000} height={1000} src="/path.webp" alt="Wooden boardwalk" className="w-full h-32 object-cover object-center rounded-lg shadow-lg" />
+                  <Image width={1000} height={1000} loading='lazy' src="/area.webp" alt="Mangrove ecosystem" className="w-full h-48 object-cover object-center rounded-lg shadow-lg" />
+                  <Image width={1000} height={1000} loading='lazy' src="/path.webp" alt="Wooden boardwalk" className="w-full h-32 object-cover object-center rounded-lg shadow-lg" />
                 </div>
                 <div className="space-y-4 mt-8">
-                  <Image width={1000} height={1000} src="/aerial.webp" alt="Wildlife" className="w-full h-32 object-cover object-center rounded-lg shadow-lg" />
-                  <Image width={1000} height={1000} src="/sunset.webp" alt="Aerial view" className="w-full h-48 object-cover object-center rounded-lg shadow-lg" />
+                  <Image width={1000} height={1000} loading='lazy' src="/aerial.webp" alt="Wildlife" className="w-full h-32 object-cover object-center rounded-lg shadow-lg" />
+                  <Image width={1000} height={1000} loading='lazy' src="/sunset.webp" alt="Aerial view" className="w-full h-48 object-cover object-center rounded-lg shadow-lg" />
                 </div>
               </div>
             </div>

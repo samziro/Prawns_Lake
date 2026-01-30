@@ -10,6 +10,7 @@ const Hero: React.FC = () => (
       <Image
         width={100}
         height={100}
+        loading='lazy'
         src="/food1.jpg"
         alt="Prawns Lake 1"
         className="w-full h-full object-cover object-top"
@@ -19,6 +20,7 @@ const Hero: React.FC = () => (
       <Image
         width={1000}
         height={1000}
+        loading='lazy'
         src="/hero2.webp"
         alt="Prawns Lake 2"
         className="w-full h-full object-cover object-top"
@@ -28,6 +30,7 @@ const Hero: React.FC = () => (
       <Image
         width={100}
         height={100}
+        loading='lazy'
         src="/food1.jpg"
         alt="Prawns Lake 3"
         className="w-full h-full object-cover object-top"

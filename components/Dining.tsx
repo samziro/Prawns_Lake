@@ -80,7 +80,7 @@ const Dining: React.FC = () => {
                 {dishes.map((dish, idx) => (
                   <div key={idx} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div className="relative">
-                      <Image width={400} height={300} src={dish.image} alt={dish.title} className="w-full h-48 object-cover object-center" />
+                      <Image width={400} height={300} loading='lazy' src={dish.image} alt={dish.title} className="w-full h-48 object-cover object-center" />
                       {dish.popular && (
                         <div className="absolute top-4 left-4 bg-emerald-600 text-white px-3 py-1 rounded-full text-sm font-semibold font-outfit">
                           Popular
