@@ -76,7 +76,7 @@ export default function Tour() {
                         </div>
                         <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
                             <div className="relative overflow-hidden">
-                                <Image height={100} width={100} src="/food1.jpg" alt="Wildlife Viewing" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
+                                <Image height={1000} width={1000} src="/wildlife.webp" alt="Wildlife Viewing" className="w-full h-48 object-cover object-center group-hover:scale-110 transition-transform duration-300" />
                                 <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center"><i className="ri-binoculars-line text-blue-600 text-xl"></i></div>
                             </div>
                             <div className="p-6">
@@ -115,7 +115,7 @@ export default function Tour() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"><div className="relative overflow-hidden"> <Image width={100} height={100} src="/food1.jpg" alt="" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
+                        <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"><div className="relative overflow-hidden"> <Image width={1000} height={1000} src="/camera.webp" alt="" className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300" />
                         <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center"><i className="ri-camera-line text-blue-600 text-xl"></i></div></div>
                         <div className="p-6">
                             <h3 className="text-xl font-bold text-gray-900 mb-3">Photography Tours</h3>

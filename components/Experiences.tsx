@@ -20,7 +20,7 @@ const experiences: Experience[] = [
     description:
       "Experience the magical nocturnal side of Mida Creek with guided evening kayak tours featuring lanterns and firefly watching.",
     image:
-      '/food2.jpg',
+      '/ages.webp',
     icon: 'ri-moon-line',
     duration: '2 hours',
     price: 'KSh 1,500/person',
@@ -36,7 +36,7 @@ const experiences: Experience[] = [
     description:
       'Join trained naturalists for comprehensive bird-watching experiences through diverse mangrove habitats.',
     image:
-      '/food1.jpg',
+      '/birds.webp',
     icon: 'ri-binoculars-line',
     duration: '1.5 hours',
     price: 'KSh 800/person',
@@ -51,7 +51,7 @@ const experiences: Experience[] = [
     description:
       'Family-friendly conservation-minded mini fishing experience perfect for children and beginners.',
     image:
-      '/food2.jpg',
+      '/view.webp',
     icon: 'ri-fish-line',
     duration: '1 hour',
     price: 'KSh 600/person',
@@ -77,7 +77,7 @@ const ExperienceCard: React.FC<{ exp: Experience }> = ({ exp }) => (
         height={400}
         src={exp.image}
         alt={exp.title}
-        className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"
+        className="w-full h-48 object-cover object-center group-hover:scale-110 transition-transform duration-300"
       />
       <div className="absolute top-4 right-4 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
         <i className={`${exp.icon} text-indigo-600 text-xl`}></i>

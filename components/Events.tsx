@@ -25,8 +25,8 @@ const Events: React.FC = () => {
           {/* Wedding Venue */}
           <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
             <div className="relative overflow-hidden">
-              <Image width={100} height={100}
-                src="/food2.jpg"
+              <Image width={1000} height={1000}
+                src="/wed.webp"
                 alt="Wedding & Event Venue"
                 className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"
               />
@@ -82,8 +82,8 @@ const Events: React.FC = () => {
           {/* Corporate Team Building */}
           <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
             <div className="relative overflow-hidden">
-              <Image width={100} height={100}
-                src="/food1.jpg"
+              <Image width={1000} height={1000}
+                src="/teaching.webp"
                 alt="Corporate Team Building"
                 className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"
               />
@@ -139,8 +139,8 @@ const Events: React.FC = () => {
           {/* Yoga & Wellness */}
           <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
             <div className="relative overflow-hidden">
-              <Image width={100} height={100}
-                src="/food1.jpg"
+              <Image width={1000} height={1000}
+                src="/yoga.webp"
                 alt="Yoga & Wellness Retreats"
                 className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-300"
               />
